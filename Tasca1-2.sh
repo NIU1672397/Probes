@@ -1,6 +1,6 @@
 #!/bin/bash
 
-i=3
+i=1
 lin=`wc -l < $1`  
 
 awk -F ";" '{print $0}' $1 | sort -t ";" -k 1 -n >> h.csv
